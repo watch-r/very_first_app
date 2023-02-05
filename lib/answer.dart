@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Answer extends StatelessWidget {
-  final Function selectHandler;
+  final VoidCallback selectHandler;
   final String answer;
 
   Answer(this.selectHandler, this.answer);
@@ -16,7 +16,7 @@ class Answer extends StatelessWidget {
         style: ElevatedButton.styleFrom(
           minimumSize: Size(200, 35),
           padding: EdgeInsets.all(5),
-          backgroundColor: Colors.blueAccent,
+          backgroundColor: Color.fromARGB(196, 207, 61, 61),
         ),
       ),
     );
