@@ -74,8 +74,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext ctx) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+          centerTitle: true,
           title: Text('Test of you Mind!!'), // * Name in the AppBar
           backgroundColor: Color.fromARGB(196, 207, 61, 61),
         ),
